@@ -11,4 +11,8 @@ ps:
 
 phpsh:
 	docker-compose exec php ash
+mysqlsh:
+	docker-compose exec mysql ash
+mysqlcli:
+	docker-compose exec mysql mysql -u prayground -p
 
